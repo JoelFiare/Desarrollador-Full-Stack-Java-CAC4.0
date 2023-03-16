@@ -1,0 +1,97 @@
+package ar.com.codoacodo.clase3;
+
+public class Buscador {
+
+	//atributos
+	private String clave;
+	private Articulo[] listado;  
+	private int cantidad;
+		
+	private ISearch searchService;
+	
+	//inyectar desde afuera la instancia concreta
+		
+	//constructo/res
+	public Buscador(ISearch search) {
+		this.searchService = search;
+	}
+	
+	public Buscador(String clave) {
+		setClave(clave);
+	}
+	
+	public void setSearchService(ISearch searchService) {
+		this.searchService = searchService;
+	}
+		
+	//metodos
+	public void buscar() {
+		
+		this.setListado(this.searchService.search());
+		
+		this.setCantidad(getLitado().length);
+	}
+
+	public Articulo[] getLitado() {
+		if(this.listado == null) {
+			this.setListado(new Articulo[0]);
+		}
+		// quiero escribir codigo
+		return this.listado;
+	}
+	
+	public int getCantidad(){
+		return this.cantidad;
+	}
+	
+	private void setListado(Articulo[] articulos) {
+		this.listado = articulos;
+	}
+	
+	private void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+	
+	public void setClave(String clave) {
+		if(clave == null || clave.isBlank()) {
+			this.clave = "";
+		}
+		this.clave = clave;
+	}
+}
+
+
+
+
+package ar.com.codoacodo.clase3;
+
+public class MongoSearch implements ISearch{
+
+	public Articulo[] search() {
+		/*simular una consulta a la db*/
+		System.out.println("Buscando en el la base de documentos....");
+		
+		Articulo a1 = new Articulo(1l,"IRON MAN AVENGER ENDGAME",22052.01d,"","");
+		Articulo a2 = new Articulo(1l,"MARVEN STUDIO EL DICCION...",8383.95D,"BRAY, ADAM","http://bla...");
+		Articulo a3 = new Articulo(1l,"NUNCA CORRI SIEMPRE COBRÉ...",4290D,"BRAY, ADAM","http://bla...");
+		
+		return new Articulo[] {a1,a2,a3};
+	}
+}
+
+
+package ar.com.codoacodo.clase3;
+
+public class ApiSearch implements ISearch{
+
+	public Articulo[] search() {
+		/*simular una consulta a la db*/
+		System.out.println("consultando http://api.com.ar/api/articulos");
+		
+		Articulo a1 = new Articulo(1l,"IRON MAN AVENGER ENDGAME",22052.01d,"","");
+		Articulo a2 = new Articulo(1l,"MARVEN STUDIO EL DICCION...",8383.95D,"BRAY, ADAM","http://bla...");
+		Articulo a3 = new Articulo(1l,"NUNCA CORRI SIEMPRE COBRÉ...",4290D,"BRAY, ADAM","http://bla...");
+		
+		return new Articulo[] {a1,a2,a3};
+	}
+}

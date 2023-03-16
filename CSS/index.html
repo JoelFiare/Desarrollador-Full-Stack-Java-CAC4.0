@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--css: interno -->
+    <style>
+        /*solo puedo escribir codigo css*/
+        h1 {
+            color:blue;
+        }
+    </style>
+    <!--css externo-->
+    <link rel="stylesheet" href="./assets/css/styles.css"/>
+</head>
+<body>
+    <!--css: inline-->
+    <!-- <h1 style="color:red">Subtitulo</h1> -->
+    <main>
+        <section id="foto">
+            <h1>MI CV</h1>
+            <h2>carlos horacio lópez</h2>
+            <img id="cv_img" src="./assets/img/carlos.jfif">
+        </section>
+        <section class="cv_cursos">
+            <h3>cursos</h3>
+            <ol>
+                <li>
+                    seguridad en servicios rest
+                </li>
+                <li>
+                    java
+                </li>
+            </ol>
+        </section>
+        <section class="cv_cursos">
+           <table>
+                <tbody>
+                    <tr>
+                        <td id="cv_curso_img">
+                            <img class="cv_curso_img_left" src="./assets/img/ls.jpg">
+                        </td>
+                        <td id="cv_curso_info">
+                            <h3>Instructor Programa Codo a Codo - Fullstack Java/Spring</h3>
+                            <p>Agencia de Aprendizaje a lo largo de la vida  Instructor de los cursos Java FullStack y Java Spring</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="cv_curso_img">
+                            <img class="cv_curso_img_left" src="./assets/img/ls.jpg">
+                        </td>
+                        <td id="cv_curso_info">
+                            <h3>Instructor Programa Codo a Codo - Fullstack Java/Spring</h3>
+                            <p>Agencia de Aprendizaje a lo largo de la vida  Instructor de los cursos Java FullStack y Java Spring</p>
+                        </td>
+                    </tr>
+                </tbody>
+           </table>            
+        </section>
+    </main>
+</body>
+</html>
