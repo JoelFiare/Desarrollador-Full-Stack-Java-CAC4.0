@@ -1,6 +1,3 @@
-git init -> iniciar repositorio en ese directorio
-git status ->
-
 :x guardar
 :q quit
 
