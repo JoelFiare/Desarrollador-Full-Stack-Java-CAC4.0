@@ -1,7 +1,7 @@
 <h1 align="center"> Trabajo práctico integrador Front-End Codo a Codo 4.0 - Desarrollador Full Stack Java - Comisión 23049</h1>
 
 <div align="center">
-  <img align="center" src="https://github.com/JoelFiare/Desarrollador-Full-Stack-Java-CAC4.0/blob/main/Trabajo-Practico-Integrador-Front/assets/img/codoacodo.png" />
+  <img src="https://github.com/JoelFiare/Desarrollador-Full-Stack-Java-CAC4.0/blob/main/Trabajo-Practico-Integrador-Front/assets/img/codoacodo.png" />
 </div>
 
 <div align="center">
