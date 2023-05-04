@@ -1,8 +1,6 @@
-<h1 align="center"> Trabajo práctico integrador Front-End Codo a Codo 4.0 - Desarrollador Full Stack Java - Comisión 23049</h1>
+<div align="center"><img src="https://github.com/JoelFiare/Desarrollador-Full-Stack-Java-CAC4.0/blob/main/Trabajo-Practico-Integrador-Front/assets/img/codoacodo.png" /></div>
 
-<div align="center">
-  <img src="https://github.com/JoelFiare/Desarrollador-Full-Stack-Java-CAC4.0/blob/main/Trabajo-Practico-Integrador-Front/assets/img/codoacodo.png" />
-</div>
+<h1 align="center"> Trabajo práctico integrador Front-End Codo a Codo 4.0 - Desarrollador Full Stack Java - Comisión 23049</h1>
 
 ## Consigna:
 - Deberán replicar la siguiente página principal con lo visto en clase hasta el momento, se recomienda usar bootstrap:
