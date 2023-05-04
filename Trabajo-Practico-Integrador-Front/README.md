@@ -10,7 +10,7 @@
  </div>
 
 
-## Descripción del proyecto:
+## Consignas:
 - Deberán replicar la siguiente página principal con lo visto en clase hasta el momento, se recomienda usar bootstrap:
 
 ![final_front_2021](https://github.com/JoelFiare/Desarrollador-Full-Stack-Java-CAC4.0/blob/main/Trabajo-Practico-Integrador-Front/assets/img/final_front_2021.jpg)
@@ -19,9 +19,10 @@
 
 - La entrega será pegando el link de donde está alojado su trabajo, puede ser cualquiera de las siguientes alternativas ftp, servidor gratuito, github o alguna herramienta que permita alojar el trabajo.
 
-## Lenguajes de programación usados:
+## Tecnologías utilizadas:
 - HTML
 - CSS
+- Bootstrap
 
 ## Deploy:
 Mi proyecto está disponible en GitHub Pages:
