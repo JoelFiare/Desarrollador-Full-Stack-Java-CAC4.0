@@ -4,13 +4,7 @@
   <img src="https://github.com/JoelFiare/Desarrollador-Full-Stack-Java-CAC4.0/blob/main/Trabajo-Practico-Integrador-Front/assets/img/codoacodo.png" />
 </div>
 
-<div align="center">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
-   <img src="https://img.shields.io/badge/PROYECTO-%20 PÁGINA WEB-white">
- </div>
-
-
-## Consignas:
+## Consigna:
 - Deberán replicar la siguiente página principal con lo visto en clase hasta el momento, se recomienda usar bootstrap:
 
 ![final_front_2021](https://github.com/JoelFiare/Desarrollador-Full-Stack-Java-CAC4.0/blob/main/Trabajo-Practico-Integrador-Front/assets/img/final_front_2021.jpg)
@@ -20,9 +14,7 @@
 - La entrega será pegando el link de donde está alojado su trabajo, puede ser cualquiera de las siguientes alternativas ftp, servidor gratuito, github o alguna herramienta que permita alojar el trabajo.
 
 ## Tecnologías utilizadas:
-- HTML
-- CSS
-- Bootstrap
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## Deploy:
 Mi proyecto está disponible en GitHub Pages:
